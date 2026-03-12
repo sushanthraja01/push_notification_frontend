@@ -31,7 +31,7 @@ self.addEventListener("push", event => {
     icon: "/logo192.png",
     tag: Date.now().toString(), // unique notification
     data: {
-      url: data.url || "http://localhost:5173"
+      url: data.url || "https://push-notification-frontend-inky.vercel.app/"
     }
   };
 
