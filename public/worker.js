@@ -15,7 +15,7 @@ self.addEventListener("push", event => {
   let data = {
     title: "Notification",
     body: "Push notification working",
-    url: "http://localhost:5173"
+    url: "https://push-notification-frontend-inky.vercel.app/"
   };
 
   if (event.data) {
