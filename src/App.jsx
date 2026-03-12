@@ -75,12 +75,6 @@ function App() {
     <div>
       <h1>MERN Push Notifications</h1>
 
-      <button
-        onClick={() => axios.post(`${API_URL}/sendNotification`)}
-      >
-        Send Notification
-      </button>
-
     </div>
   );
 
